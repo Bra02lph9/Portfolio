@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ibrahim Rmili - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-left">
+      <div class="name">Ibrahim Rmili</div>
+      <div>Email: ibrahim@example.com</div>
+      <div>Phone: +212600000000</div>
+    </div>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#recommendations">Recommendations</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" class="intro">
+      <img src="https://cdn-icons-png.flaticon.com/512/4333/4333609.png" alt="Profile" />
+      <div>
+        <h1>Hi, I'm Ibrahim Rmili! 👋</h1>
+        <p>
+          I am a full stack developer with 2 years of experience in both application
+          and presentation layers. I have worked on applications and microservices
+          deployed on IBM Cloud. I enjoy building smart, scalable, and interactive solutions.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="skill">
+          <img src="https://cdn-icons-png.flaticon.com/512/174/174854.png" alt="HTML" />
+          <strong>HTML</strong>
+          <p>2 years experience</p>
+        </div>
+        <div class="skill">
+          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript" />
+          <strong>JavaScript</strong>
+          <p>1.5 years experience</p>
+        </div>
+        <div class="skill">
+          <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="Java" />
+          <strong>Java</strong>
+          <p>0.5 years experience</p>
+        </div>
+        <div class="skill">
+          <img src="https://cdn-icons-png.flaticon.com/512/919/919851.png" alt="React" />
+          <strong>React</strong>
+          <p>1 year experience</p>
+        </div>
+        <div class="skill">
+          <img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" alt="Node.js" />
+          <strong>Node.js</strong>
+          <p>1 year experience</p>
+        </div>
+        <div class="skill">
+          <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS" />
+          <strong>CSS</strong>
+          <p>2 years experience</p>
+        </div>
+      </div>
+    </section>
+    <section class="project1">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <div class="project-title">Chatbot</div>
+      <ul>
+        <li>Developed a secure website integrated with chatbot for an automobile client using HTML, CSS, JavaScript and IBM Watson Assistant</li>
+      </ul>
+      <hr>
+    </div>
+
+    <div class="project">
+      <div class="project-title">Sentiment Analyzer</div>
+      <ul>
+        <li>Developed and deployed a sentiment analyzer for the box reviews section of an eCommerce platform using IBM NLU</li>
+      </ul>
+      <hr>
+    </div>
+
+    <div class="project">
+      <div class="project-title">Fashion Website</div>
+      <ul>
+        <li>Created a styled multi-page website for a new player in the fashion industry and integrated it with a shopping cart, using Stripe for payment gateway</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Section Recommendations -->
+  <section class="recom">
+    <h2>Recommendations</h2>
+    <div class="recommendations">
+      <div class="recommendation-card">
+        Jane is a very quick learner and quickly grasps key concepts of Web development. She got a great attitude & she is an excellent team player. She has a curious mind and asks the right question. She takes initiative within a team and has potentials to lead the team.
+      </div>
+
+      <div class="recommendation-card">
+        Working with Jane has been an awesome experience. She is highly knowledgeable and always goes the extra step to make sure everything is right. For any future projects that need her expertise I would definitely want to work with her again.
+      </div>
+
+      <div class="recommendation-card">
+        I had worked along with Jane during the initial phase of our venture which needed Web development. She is a committed resource who has in depth knowledge about the domain. She will be an asset for any organisation!
+      </div>
+    </div>
+  </section>
+   <section class="form-section">
+    <h2 style="color: black;">Add a Recommendation</h2>
+    <form id="recommendation-form">
+      <div class="form-group">
+        <input type="text" id="name" placeholder="your Name" required>
+      </div>
+
+      <div class="form-group">
+        <textarea id="message" rows="5" placeholder="write a recommendation" required></textarea>
+      </div>
+
+      <button type="submit">Submit </button>
+    </form>
+  </section>
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>
